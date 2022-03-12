@@ -10,4 +10,8 @@ public class Currency {
     public static int pound(int rupee){
         return rupee/102;
     }
+
+    public static int sek(int rupee){
+        return rupee/8;
+    }
 }
