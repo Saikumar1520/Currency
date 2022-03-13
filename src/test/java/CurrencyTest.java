@@ -33,6 +33,6 @@ public class CurrencyTest {
 
     @Test
     public void testcnd(){
-        assertEquals(2, Currency.sek(160));
+        assertEquals(2, Currency.cnd(160));
     }
 }
