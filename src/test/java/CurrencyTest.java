@@ -29,4 +29,10 @@ public class CurrencyTest {
     public void testsek(){
         assertEquals(2, Currency.sek(16));
     }
+
+
+    @Test
+    public void testcnd(){
+        assertEquals(2, Currency.sek(160));
+    }
 }
