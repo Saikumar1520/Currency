@@ -14,4 +14,8 @@ public class Currency {
     public static int sek(int rupee){
         return rupee/8;
     }
+
+    public static int cnd(int rupee) {
+        return rupee/80;
+    }
 }
