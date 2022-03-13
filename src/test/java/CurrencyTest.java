@@ -12,7 +12,7 @@ public class CurrencyTest {
     }
     @Test
     public void testdollar(){
-        assertEquals(3, Currency.dollar(156));
+        assertEquals(2, Currency.dollar(156));
     }
 
     @Test
